@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+.env.local
+
+# Environment files
+.env
+
+# Pytest
+.pytest_cache/
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# Ignore all .txt files except requirements.txt
+*.txt
+!requirements.txt
+
+# SQLite or other local DB files
+*.db
+*.sqlite3
